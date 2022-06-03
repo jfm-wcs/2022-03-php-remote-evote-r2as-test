@@ -1,7 +1,7 @@
 doctrine:
     dbal:
         url: '%env(resolve:DATABASE_URL)%'
-        driver: pdo_sqlite
+        driver: pdo_mysql
         charset: UTF8
 
     orm:
